@@ -19,13 +19,13 @@ library(readr)
 
 EMR<-c("Afghanistan","Bahrain","Djibouti","Egypt","Iran","Iraq","Jordan",
        "Kuwait","Lebanon","Libya","Morocco","Oman","Pakistan","Qatar","Saudi Arabia","KSA",
-       "Somalia","Sudan","Syria","Tunisia","United Arab Emirates","UAE","Yemen")
+       "Somalia","Sudan","Syria","Tunisia","United Arab Emirates","UAE","Yemen","Palestine" )
 
 
 #creating variables
 
 indicator<-"mask" # one can choose from covid, flue, mask, contact or finance
-country0<-"Palestine" #select country 
+country0<-"Afghanistan" #select country 
 start_date<-"20200424"#you can also change the date [yyyymmdd] range
 end_date<-"20201010"
 
